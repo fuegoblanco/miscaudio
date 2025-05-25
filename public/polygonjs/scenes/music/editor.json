@@ -1,0 +1,103 @@
+{
+	"multiple_panel": {
+		"split_ratio": 0.39260683286872783,
+		"split_panel0": {
+			"split_ratio": 0.28014204545454546,
+			"split_panel0": {
+				"panelTypes": ["viewer"],
+				"currentPanelIndex": 0,
+				"panel_data": {
+					"camera": "/cameras/cameras:sopGroup/perspectiveCamera1",
+					"isViewerInitLayoutData": true,
+					"linkIndex": 1,
+					"overlayedNetwork": {
+						"allowed": false,
+						"displayed": false
+					}
+				}
+			},
+			"split_panel1": {
+				"split_ratio": 0.5,
+				"split_panel0": {
+					"panelTypes": ["params"],
+					"currentPanelIndex": 0,
+					"panel_data": {
+						"active_folder": 1854,
+						"linkIndex": 1
+					}
+				},
+				"split_panel1": {
+					"panelTypes": ["params"],
+					"currentPanelIndex": 0,
+					"panel_data": {
+						"active_folder": 1854,
+						"linkIndex": 3
+					}
+				},
+				"split_mode": "horizontal"
+			},
+			"split_mode": "vertical"
+		},
+		"split_panel1": {
+			"panelTypes": ["network", "params", "network"],
+			"currentPanelIndex": 0,
+			"panel_data": {
+				"camera": {
+					"position": {
+						"x": 275,
+						"y": 375
+					},
+					"zoom": 0.6662463305375682
+				},
+				"history": {
+					"2": {
+						"position": {
+							"x": 0,
+							"y": 0
+						},
+						"zoom": 0.6662463305375682
+					},
+					"326": {
+						"position": {
+							"x": 200,
+							"y": 125
+						},
+						"zoom": 0.1
+					}
+				},
+				"paramsDisplayed": false,
+				"linkIndex": 3
+			}
+		},
+		"split_mode": "horizontal"
+	},
+	"currentNodes": ["/", "/", "/positionalAudio1", "/", "/", "/", "/", "/"],
+	"navigationHistory": {
+		"nodePaths": {
+			"1": ["/", "/", "/", "/", "/", "/", "/", "/", "/", "/", "/"],
+			"2": ["/", "/", "/", "/", "/", "/", "/", "/", "/", "/"],
+			"3": ["/", "/positionalAudio1"],
+			"4": ["/"],
+			"5": ["/"],
+			"6": ["/"],
+			"7": ["/"],
+			"8": ["/"]
+		},
+		"index": {
+			"1": 10,
+			"2": 9,
+			"3": 1,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0
+		}
+	},
+	"fullscreenPanelId": null,
+	"saveOptions": {
+		"checkRemoteAssetsUse": true,
+		"minimizeFilesCount": true
+	},
+	"paramsModal": []
+}

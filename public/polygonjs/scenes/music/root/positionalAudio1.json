@@ -1,0 +1,64 @@
+{
+	"type": "positionalAudio",
+	"nodes": {
+		"envelope1": {
+			"type": "envelope"
+		},
+		"AMSynth1": {
+			"type": "AMSynth",
+			"inputs": ["envelope1"]
+		},
+		"playInstrument1": {
+			"type": "playInstrument",
+			"inputs": ["waveform1"]
+		},
+		"OUT": {
+			"type": "null",
+			"inputs": ["playInstrument1"]
+		},
+		"file1": {
+			"type": "file",
+			"params": {
+				"url": "models/rain.mp3?timestamp=1748172217985",
+				"autostart": false,
+				"duration": 229.78466666666668,
+				"updateCurrentTimeParam": true,
+				"currentTime": 16.858666666666522
+			}
+		},
+		"meter1": {
+			"type": "meter",
+			"params": {
+				"smoothing": 0.54,
+				"value": 0.04856906831264496,
+				"updateRangeParam": false
+			},
+			"inputs": ["file1"]
+		},
+		"waveform1": {
+			"type": "waveform",
+			"params": {
+				"sizeExponent": 5,
+				"smoothing": 0.19,
+				"normalRange": false,
+				"range": [-0.02209554798901081, 0.0613713413476944],
+				"maxRange": [-0.9229664206504822, 0.9131957292556763]
+			},
+			"inputs": ["FFT1"]
+		},
+		"FFT1": {
+			"type": "FFT",
+			"params": {
+				"range": [1.466205712397084e-9, 0.01569412462413311],
+				"maxRange": [0, 0.08604095876216888]
+			},
+			"inputs": ["meter1"]
+		}
+	},
+	"params": {
+		"audioNode": "OUT"
+	},
+	"flags": {
+		"display": true
+	}
+}

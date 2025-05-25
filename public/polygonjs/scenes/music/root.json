@@ -1,0 +1,14 @@
+{
+	"type": "root",
+	"nodes": {
+		"audioListener1": {
+			"type": "audioListener",
+			"flags": {
+				"display": true
+			}
+		}
+	},
+	"params": {
+		"mainCameraPath": "/cameras/cameras:sopGroup/perspectiveCamera1"
+	}
+}
